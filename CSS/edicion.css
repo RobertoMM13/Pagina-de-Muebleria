@@ -1,0 +1,86 @@
+
+body{ background-image: url(https://thumbs.dreamstime.com/t/cielo-estrellado-de-la-noche-fondo-azul-marino-del-espacio-con-las-estrellas-111262115.jpg);}
+header{
+    background-color: #000000;
+    border-radius: 4px;  /*En esta parte del codigo mandamos a llamar las etiquetas header y footer para realizarle cambios como el color el margen etc.. */
+    margin: 4px;
+    padding: 25px;
+    padding-left:260px;
+    font-size: 25px;
+text-align: left;
+}
+
+.clases a:link{
+background-color: #000000;
+color: white;
+padding: 10px 20px;
+  text-align: left;             /*se Manda a llamar la clase materias para realizarle cambios solo a los links que aprarecen dentro de esa clase */
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  border: 1px solid white;
+}
+.texto{       /*Llamamos la clase texto para darle tamaño */
+width:400px;
+padding-left:20px;
+}
+.ayuda a:link{
+background-color: #000000;
+color: white;
+padding: 10px 20px;
+  text-align: left;             /*se Manda a llamar la clase materias para realizarle cambios solo a los links que aprarecen dentro de esa clase */
+  text-decoration: none;
+  display: inline-block;
+  width: 120px;
+  border: 1px solid white;
+
+}
+.principal{   /*Se llama la clase cajita para modificar el cuadro con un comentario*/
+  position:absolute;
+  top:140px;
+  left: 450px;
+
+  padding: 30px;
+  height:80px;
+  width: 550px;
+}
+
+section:after {       /* En esta parte del codigo mandamos a llamar la etiqueta section para modificarla*/
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#lista1 {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:13px;
+}
+.separador {
+    color:gray;
+
+}
+#lista1 li {
+     display:inline;
+     padding-left:3px;
+     padding-right:3px;
+    background-color:black;
+}
+a {
+    color:white;
+    text-decoration:none;
+}
+a:hover {
+    color:black;
+    background-color:lightgray;
+}
+
+.contactos{
+
+  position:absolute;
+  top:5px;
+  left: 1000px;
+}
+legend{
+  color:#ffff
+}

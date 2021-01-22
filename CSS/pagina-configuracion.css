@@ -1,0 +1,66 @@
+
+body{ background-image: url(https://previews.123rf.com/images/seamartini/seamartini1605/seamartini160500385/56805534-muebles-para-el-hogar-fondo-en-colores-c%C3%A1lidos-con-el-patr%C3%B3n-de-color-naranja-y-marr%C3%B3n-de-c%C3%B3modos-sof%C3%A1s-y-sillone.jpg);}
+
+header{
+    background-color: #000000;
+    border-radius: 4px;  /*En esta parte del codigo mandamos a llamar las etiquetas header y footer para realizarle cambios como el color el margen etc.. */
+    margin: 4px;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+.volver{
+  position:absolute;
+  top:-40px;
+  left: 10px;
+
+}
+h1{
+  color: white;
+}
+.apartado a:link{
+background-color: #000000;
+color: white;
+padding: 10px 20px;
+  text-align: left;             /*se Manda a llamar la clase materias para realizarle cambios solo a los links que aprarecen dentro de esa clase */
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  border: 1px solid white;
+}
+.texto{       /*Llamamos la clase texto para darle tamaño */
+width:400px;
+padding-left:20px;
+}
+
+.principal{   /*Se llama la clase cajita para modificar el cuadro con un comentario*/
+  position:absolute;
+  top:140px;
+  left: 450px;
+  padding: 30px;
+  height:90px;
+  width: 550px;
+}
+section:after {       /* En esta parte del codigo mandamos a llamar la etiqueta section para modificarla*/
+  content: "";
+  display: table;
+  clear: both;
+}
+#lista1 {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:13px;
+}
+.separador {
+    color:gray;
+}
+#lista1 li {
+     display:inline;
+     padding-left:3px;
+     padding-right:3px;
+    background-color:black;
+}
+a {
+    color:white;
+    text-decoration:none;
+}

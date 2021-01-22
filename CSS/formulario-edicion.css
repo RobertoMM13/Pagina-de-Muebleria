@@ -1,0 +1,23 @@
+h1{
+text-align: center;}
+body{                           /*color verde y alineacion de texto*/
+  background-color: pink;
+}
+.mover{   /*Se llama la clase cajita para modificar el cuadro con un comentario*/
+  position:absolute;
+  top:-30px;
+  left: 490px;
+  padding: 30px;
+}
+.abono{   /*Se llama la clase cajita para modificar el cuadro con un comentario*/
+  position:absolute;
+  top:300px;
+  left: 280px;
+  padding: 30px;
+}
+.comunidad{   /*Se llama la clase cajita para modificar el cuadro con un comentario*/
+  position:absolute;
+  top:0px;
+  left: 250px;
+  padding: 30px;
+}
