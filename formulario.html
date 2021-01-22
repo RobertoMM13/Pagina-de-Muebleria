@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulario</title>
+<link rel="stylesheet" href="CSS\Formulario-edicion.css"> <!-- Se enlaca con la pagina css para hacer modificaciones en el formulario creado -->
+ <meta name="viewport" content="width=device-width">
+
+
+</head>
+<body >
+
+</div>
+<div>
+<form action="PHP/Procesas.php" target="_blank" method"get">
+
+ <fieldset >
+  <div class="mover">
+   <h2># cuenta <br><input type="text"  required  id="cuenta" name="cuenta" size="10" maxlength="20"></h2>
+</div>
+<div class="comunidad">
+<h2>Municipio o ciudad:<br><input type="text" required  id="Municipio" name="Municipio" size="30" maxlength="40"></h2>
+</div>
+  <h2>Nombre del cliente: <br><input type="text" required  id="Tu" name="Tu" size="30" maxlength="40"></h2>
+    <h2>Direccion: <br><input type="text" required  id="domicilio" name="domicilio" size="30" maxlength="40"></h2>
+    <h2>Numero de telefono: <br><input type="text" required  id="telefono" name="telefono" size="30" maxlength="40"></h2>
+  <h2>Nombre del cobrador: <br><input type="text" required  id="cobrador" name="cobrador" size="30" maxlength="40"></h2>
+   <legend> Datos</legend>
+<h2>Articulo <input type="text"  required  id="articulo" name="articulo" size="20" maxlength="20"></h2>
+
+<h2>Precio <input type="text"  required  id="precio" name="precio" step="0.001" oninput="calcular()" size="15" maxlength="20"></h2>
+<div class="abono">
+<h2>Abono <input type="text"  required  id="abono" name="abono" step="0.001" oninput="calcular()" size="15" maxlength="20"></h2>
+<h2>Saldo <input type="text"  required  id="saldo" name="saldo" step="0.001" size="15" maxlength="20"></h2>
+</div>
+<Input type="submit" value"Enviar" >  <!--boton de enviar-->
+<input type="reset">
+ </fieldset>
+</form>
+</div>
+<br>
+<body>
+<script type="text/javascript">
+function calcular(){
+  try{
+    var a = parseFloat(document.getElementById("precio").value) || 0,
+     b =parseFloat(document.getElementById("abono").value) || 0;
+     document.getElementById("saldo").value = a - b;
+  }catch(e){}
+}
+</script>
+
+</div>
+</body>
+</html>
